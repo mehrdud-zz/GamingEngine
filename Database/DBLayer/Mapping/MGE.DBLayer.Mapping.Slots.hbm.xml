@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="DBLayer"
+                   namespace="MGE.DBLayer.Entities.Slots">
+
+  <!-- more mapping info here -->
+  <class name="Fruit" table="Fruit"  lazy="false">
+    <id name="FruitId"  type="Int32">
+      <generator class="hilo"/>
+    </id>
+    <property name="Name" />
+    <property name="ImageURL" />
+  </class>
+</hibernate-mapping>

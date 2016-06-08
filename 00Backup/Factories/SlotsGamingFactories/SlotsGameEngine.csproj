@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A5D89A1-CA16-4282-B121-2930AB0F4831}</ProjectGuid>
+    <ProjectGuid>{F474FB89-C50C-4BBE-9B7A-C96AA7243F5D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MGE.GamingEngine.SlotsEngine</RootNamespace>
-    <AssemblyName>MGE.GamingEngine.SlotsEngine</AssemblyName>
+    <RootNamespace>MGE.GamingEngine.SlotsGameEngine</RootNamespace>
+    <AssemblyName>MGE.GamingEngine.SlotsGameEngine</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,18 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Engine\SlotsEngine.cs" />
-    <Compile Include="Entities\Sessions\PlayerSession.cs" />
-    <Compile Include="Factories\Engine\SlotsEngineFactory.cs" />
-    <Compile Include="Factories\Sessions\PlayerSessionFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Slots\Factories\SlotsMachineItemFactory.cs" />
+    <Compile Include="Slots\Factories\SlotsMachineMatrixFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Base\GameEntities\GameEntities.csproj">
-      <Project>{adff6fd9-0a10-43b5-97dd-47f3981cce38}</Project>
+    <Folder Include="Slots\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\GameEntities\GameEntities.csproj">
+      <Project>{ADFF6FD9-0A10-43B5-97DD-47F3981CCE38}</Project>
       <Name>GameEntities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Base\StandardGamingFactories\GameFactories.csproj">
+    <ProjectReference Include="..\..\Base\StandardGamingFactories\GameFactories.csproj">
       <Project>{b4493812-422d-4507-a0dd-86b35eb13abe}</Project>
       <Name>GameFactories</Name>
     </ProjectReference>

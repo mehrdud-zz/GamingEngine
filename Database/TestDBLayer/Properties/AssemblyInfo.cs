@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SlotsEngine")]
+[assembly: AssemblyTitle("TestDBLayer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("SlotsEngine")]
+[assembly: AssemblyProduct("TestDBLayer")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4a5d89a1-ca16-4282-b121-2930ab0f4831")]
+[assembly: Guid("921743e3-380c-47cc-9df9-c5c2a597cf5e")]
 
 // Version information for an assembly consists of the following four values:
 //
