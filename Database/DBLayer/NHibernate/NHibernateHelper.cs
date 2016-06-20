@@ -20,7 +20,14 @@ namespace MGE.DBLayer.NHibernate
                 {
                     var configuration = new Configuration();
                     configuration.Configure();
+
                     configuration.AddAssembly(typeof(MGE.DBLayer.Entities.Slots.Fruit).Assembly);
+
+
+                    //configuration.AddAssembly(typeof(MGE.DBLayer.Entities.Slots.Engine).Assembly);
+
+
+
                     _sessionFactory = configuration.BuildSessionFactory();
                 }
                 return _sessionFactory;

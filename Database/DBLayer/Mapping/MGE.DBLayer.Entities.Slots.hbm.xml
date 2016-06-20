@@ -12,4 +12,16 @@
     <property name="Name" />
     <property name="ImageURL" />
   </class>
+
+
+  <!-- more mapping info here -->
+  <class name="GameEngine" table="GameEngine"  lazy="false">
+    <id name="GameEngineId"  type="Int32">
+      <generator class="hilo"/>
+    </id>
+    <property name="GameEngineName" />
+    <property name="GameEngineStatus" />
+    <property name="GameEngineType" />
+    <property name="StartTime" />
+  </class>
 </hibernate-mapping>

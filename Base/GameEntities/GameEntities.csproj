@@ -42,6 +42,10 @@
   <ItemGroup>
     <Compile Include="Engines\Entities\GameEngine.cs" />
     <Compile Include="Engines\Interfaces\IGameEngine.cs" />
+    <Compile Include="Game\Entities\Game.cs" />
+    <Compile Include="Game\Entities\GameRound.cs" />
+    <Compile Include="Game\Interfaces\IGame.cs" />
+    <Compile Include="Game\Interfaces\IGameRound.cs" />
     <Compile Include="Players\Entities\Player.cs" />
     <Compile Include="Players\Interfaces\IPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

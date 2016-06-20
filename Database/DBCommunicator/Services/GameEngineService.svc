@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DBCommunicator.FruitService" CodeBehind="GameEngineService.svc.cs" %>
